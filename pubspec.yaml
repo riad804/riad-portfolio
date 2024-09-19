@@ -1,0 +1,85 @@
+name: portfolio_client
+description: 'A new Flutter project.'
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+  # UI
+  fluent_ui: ^4.9.1
+  google_fonts: ^6.2.1
+  carousel_slider: ^5.0.0
+  font_awesome_flutter: ^10.7.0
+  animated_text_kit: ^4.2.2
+
+  # Architecture
+  flutter_bloc: ^8.1.6
+
+  # Dependency injection
+  get_it: ^7.7.0
+  injectable: ^2.4.4
+
+  # Navigation
+  go_router: ^14.2.3
+
+  # Networking
+  http: ^1.2.2
+  dio: ^5.6.0
+  retrofit: ^4.2.0
+  json_annotation: ^4.9.0
+  cached_network_image: ^3.4.1
+
+  # Storage
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  # Utils
+  logging: ^1.2.0
+  equatable: ^2.0.5
+  dartz: any
+
+  # Widgets
+  lottie: ^3.1.2
+  flutter_svg: ^2.0.10+1
+
+  # Localization
+  portfolio_localization:
+    path: packages/portfolio_localization
+  firebase_core: ^3.4.1
+
+  # Web3
+  flutter_web3: ^2.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+  injectable_generator: ^2.6.2
+  retrofit_generator: ^8.2.0
+  json_serializable: ^6.8.0
+  hive_generator: ^2.0.1
+  web3dart_builders: ^0.1.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+
+  #fonts:
+  #  - family: 'poppins'
+  #    fonts:
+  #    - asset: assets/fonts/
+  #    - asset: assets/fonts/
+  #      style: normal

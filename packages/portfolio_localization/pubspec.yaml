@@ -1,0 +1,13 @@
+name: portfolio_localization
+description: This package contains localization.
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  slang: ^3.19.0
+  slang_flutter: ^3.19.0
+
+dev_dependencies:
+  build_runner: ^2.4.12
+  slang_build_runner: ^3.31.0

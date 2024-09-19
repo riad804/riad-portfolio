@@ -1,0 +1,16 @@
+{
+    "applicationName": "Portfolio Client",
+    "main": {
+        "ownerName": "Md Riadul Islam",
+        "hireme": "Hire Me",
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "resume": "Resume",
+            "portfolio": "Portfolio",
+            "services": "Services",
+            "contact": "Contact",
+            "buyme": "Buy me Coffee"
+        }
+    }
+}
